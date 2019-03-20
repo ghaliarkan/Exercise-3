@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GhaliArkani</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="my-body">
+        <h1><b>PLANETS OF THE UNIVERSE</b></h1>
+        <hr />
+        <input
+          id="search-planet-input"
+          class="form-control"
+          type="text"
+          placeholder="Search planet name"
+          onkeyup="myFunction()"
+        />
+        <br />
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Rotation Period</th>
+              <th scope="col">Orbital Period</th>
+              <th scope="col">Diameter</th>
+              <th scope="col">Climate</th>
+              <th scope="col">Gravity</th>
+              <th scope="col">Terrain</th>
+              <th scope="col">Surface Water</th>
+              <th scope="col">Population</th>
+              <th scope="col">Residents</th>
+              <th scope="col">Films</th>
+            </tr>
+          </thead>
+          <tbody id="planet-table"></tbody>
+        </table>
+
+        <script src="script.js" type="text/javascript"></script>
+    </div>
+  </body>
+</html>

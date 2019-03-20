@@ -1,0 +1,40 @@
+h1 {
+  padding-top: 20px;
+  font-size: 3rem;
+  margin: 50px 0 -60px 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: linear-gradient(to right, white, coral, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+
+#search-planet-input {
+  display: block;
+  width: 20%;
+  margin-left: 10px;
+}
+
+.header {
+  color: gray;
+}
+
+.my-body {
+  background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+  background-attachment: fixed;
+}
+
+#resultId {
+  margin-top: 32px;
+}
+
+th {
+  white-space: nowrap;
+}
+
+tbody {
+  background-color: antiquewhite;
+}
